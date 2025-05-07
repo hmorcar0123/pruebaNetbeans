@@ -22,6 +22,10 @@ public class pruebaCuenta {
         System.out.println("Saldo tras ingreso:" +miCuenta.dSaldo+ "euros");
         miCuenta.retirar(50);
         System.out.println("Saldo tras ingreso:" +miCuenta.dSaldo+ "euros");
+        miCuenta.ingresar(300);
+        System.out.println("Saldo tras ingreso:" +miCuenta.dSaldo+ "euros");
+        miCuenta.retirar(50);
+        System.out.println("Saldo tras ingreso:" +miCuenta.dSaldo+ "euros");
          
          
         
